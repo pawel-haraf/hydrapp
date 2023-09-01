@@ -3,11 +3,27 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>My First Parcel App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <title>HydrApp</title>
 </head>
 
-<body>
-    <h1>Hello, World!</h1>
+<body class="flex items-center justify-center w-screen h-screen">
+    <main class="flex flex-col items-center justify-center bg-darkblue w-[375px] h-[812px] gap-11 font-roboto">
+        <h1 class="text-6xl text-white">hydrapp</h1>
+        <div class="flex flex-col items-center text-center w-[280px] h-[280px]">
+            <p class="bg-hero-pattern 
+             text-9xl h-full w-full leading-[280px]">8</p>
+
+        </div>
+        <button class="bg-white w-56 h-12 rounded-md font-roboto text-base">dodaj szklankę</button>
+        <button class="w-56 h-12 font-roboto text-red-500 text-base">usuń szklankę</button>
+    </main>
 </body>
 
 </html>
