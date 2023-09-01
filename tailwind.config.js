@@ -8,6 +8,12 @@ module.exports = {
 				whiteglass: '#ECEFF1',
 				water: '#60A5FA',
 			},
+			backgroundImage: {
+				'hero-pattern': "url('/src/hero-pattern.svg')",
+			},
+			fontFamily: {
+				roboto: ['Roboto', 'sans-serif'],
+			},
 		},
 	},
 	plugins: [],
