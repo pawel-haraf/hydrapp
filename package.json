@@ -8,5 +8,8 @@
 		"build": "parcel build src/*.html --public-url=https://pawelharaf.netlify.app/"
 	},
 	"author": "Paweł Haraf",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"parcel": "^2.9.3"
+	}
 }
