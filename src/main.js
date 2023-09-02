@@ -4,7 +4,7 @@ const text = document.querySelector('.countdown--js')
 const key = new Date().toISOString().slice(0, 10)
 const day = JSON.parse(localStorage.getItem(key))
 
-if (key === key && day !== null) {
+if (day !== null) {
 	let value = JSON.parse(localStorage.getItem(key))
 	text.innerHTML = value
 } else {
