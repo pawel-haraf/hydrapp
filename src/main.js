@@ -13,7 +13,7 @@ if (key === key && day !== null) {
 }
 
 add.addEventListener('click', () => {
-	value = Number(text.textContent) + 1
+	let value = Number(text.textContent) + 1
 	text.innerHTML = value
 	localStorage.setItem(key, value)
 })
