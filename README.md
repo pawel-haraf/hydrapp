@@ -1,4 +1,5 @@
 # hydrapp
+![HydrApp](https://pawels-hydrapp.netlify.app/og.png)
 
 ## o aplikacji
 
