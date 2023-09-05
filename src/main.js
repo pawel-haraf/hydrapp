@@ -14,9 +14,11 @@ setInterval(() => {
 		glasses = 0
 	}
 }, 60000)
+ 
 if (localStorage.getItem(key)) {
 	glasses = parseInt(localStorage.getItem(key))
 }
+
 const setCouterValue = value => {
 	counterValue.innerHTML = value
 	localStorage.setItem(key, value)
